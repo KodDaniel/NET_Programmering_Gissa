@@ -34,6 +34,7 @@ namespace NET_Programmering_Gissa
                     // Null Check för att undvika ToLower på null
                     string answer = Console.ReadLine()?.ToLower();
 
+
                     //Börja om spelet
                     if (answer == "ja")
                     {
